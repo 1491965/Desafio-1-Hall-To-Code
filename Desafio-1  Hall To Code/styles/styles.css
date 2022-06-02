@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 515px;
+}
+
+.title {
+    padding-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    color:blue;
+    text-align: center;
+}
+.name-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.label-name {
+
+    font-size: 20px;
+    font-weight: 400;
+}
+.input-name {
+    margin-top: 10px;
+    width:100% ;
+    height: 40px;
+    padding: 10px;
+}
+.email-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.label-email {
+    font-size: 20px;
+    font-weight: 400;
+}
+.input-email {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+.password-field {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.label-password {
+    font-size: 20px;
+    font-weight: 400;
+}
+.input-password {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+}
+.password-confirm-field {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.label-password-confirm {
+    font-size: 20px;
+    font-weight: 400;
+}
+.input-password-confirm {
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+
+}
+.terms-field {
+    display: flex;
+}
+.input-checkbox {
+    margin-top: 20px;
+    width: 25px;
+    height: 25px;
+}
+.p-conditions-terms {
+    margin: 20px 0 0 5px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.button-send {
+   text-align: center;
+}
+.button {
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: blue;
+    color: bisque;
+    border: 1px solid blue;
+    font-size: 20px;
+    font-weight: 500;
+}
